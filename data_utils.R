@@ -2,7 +2,7 @@ library(parallel)
 library(umap)
 
 if (!exists('ASSEMBLER.PATH')) {
-  ASSEMBLER.PATH = 'TCGA-Assembler-2-master/TCGA-Assembler'
+  ASSEMBLER.PATH = 'TCGA-Assembler-2'
   source(file.path(ASSEMBLER.PATH, 'Module_A.R'))
   source(file.path(ASSEMBLER.PATH, 'Module_B.R'))
 }
